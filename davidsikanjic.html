@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Šikanjić</title>
+    <link rel="stylesheet" href="davidsikanjic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel ="icon" href="icons8-source-code-80.png" type="image/png">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">David Šikanjić</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="toggleMenu()">
+        ☰
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Frontend Developer</h1>
+            <p>I create responsive and modern websites with clean code and smooth user experiences. Focused on performance, accessibility, and visually appealing interfaces.</p>
+            <h1>Graphic Designer</h1>
+            <p class="highlight">I design creative visuals, branding, and digital content with attention to detail and strong visual identity. Passionate about clean aesthetics and impactful design solutions.</p>
+            <a href="#contact" class="cta-button">Let's Connect</a>
+        </div>
+        <div class="hero-image">
+            <img class="profile-img" src="david.png" alt="David Šikanjić">
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-image"></i>
+                <h3>Graphic Design</h3>
+                <p>Adobe Photoshop, Illustrator</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects-slider" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="slider">
+
+            <div class="slide active">
+                <img src="duem ulje4.png" alt="Project 1">
+                <div class="slide-content">
+                    <p>DueM&Co Massage Oil Packaging</p>
+                  <!--  <p>Frontend development project.</p> -->
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="duem hair spray2.png" alt="Project 2">
+                <div class="slide-content">
+                    <!--<h3>Project Two</h3>-->
+                    <p>DueM&Co Hair Spray Packaging</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="organski sok.png" alt="Project 3">
+                <div class="slide-content">
+                    <!--<h3>Project Three</h3>-->
+                    <p>Organic Juice Packaging</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="teepublic.png" alt="Project 4">
+                <div class="slide-content">
+                    <!--<h3>Project Three</h3>-->
+                    <p>Sold 250+ T-shirts featuring my original designs on the
+                    U.S.-based print-on-demand platform TeePublic.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="majstorba.png" alt="Project 5">
+                <div class="slide-content">
+                    <!--<h3>Project Three</h3>-->
+                    <p>Majstor.ba Service Marketplace</p>
+                </div>
+            </div>
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+
+        </div>
+    </section>
+    <footer id="contact">
+        <p>&copy; 2026 David Šikanjić. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-upwork"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="davidsikanjic.js"></script>
+</body>
+</html>
