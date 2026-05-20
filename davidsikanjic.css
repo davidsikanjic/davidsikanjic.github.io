@@ -399,6 +399,10 @@ body {
         margin-top: 2rem;
     }
 
+    .livesite-button {
+        font-size: smaller;
+    }
+
 }
 
 @media(max-width:900px){
